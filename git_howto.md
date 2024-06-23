@@ -77,3 +77,15 @@ git pull
 ```sh
 git push
 ```
+Удалить ветку при push-е:
+```sh
+git push origin --delete <имя_ветки>
+```
+Просмотр подробной информации по удаленному репозиторию:
+```sh
+git remote show origin
+```
+Наложение коммитов поверх других:
+```sh
+git pull --rebase
+```
